@@ -1,0 +1,712 @@
+[
+    {
+        "user_id": "1",
+        "name": "Administrator",
+        "gender": "1",
+        "birthday": "1977-10-08T04:00:00.00Z",
+        "photo_exists": "false",
+        "pin_exists": "false",
+        "login_id": "admin",
+        "password_exists": "true",
+        "updated_count": "0",
+        "last_modified": "0",
+        "idx_last_modified": "9",
+        "start_datetime": "2001-01-01T00:00:00.00Z",
+        "expiry_datetime": "2037-12-31T23:59:00.00Z",
+        "security_level": "0",
+        "display_duration": "20",
+        "display_count": "3",
+        "permission": {
+            "id": "1",
+            "name": "Administrator",
+            "description": "this is a permission for Administrator",
+            "filter": {
+                "UserGroup": [
+                    "1"
+                ],
+                "DeviceGroup": [
+                    "1"
+                ],
+                "DoorGroup": [
+                    "1"
+                ],
+                "ElevatorGroup": [
+                    "1"
+                ],
+                "ZoneType": [
+                    "-1"
+                ],
+                "AccessGroup": [
+                    "0"
+                ],
+                "GraphicMapGroup": [
+                    "1"
+                ]
+            },
+            "module": {
+                "Dashboard": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "User": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Device": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Door": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Elevator": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Zone": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "AccessControl": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Monitoring": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "TA": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Setting": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Video": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Visitor": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Report": {
+                    "read": "true",
+                    "write": "true"
+                }
+            }
+        },
+        "inherited": "false",
+        "user_group_id": {
+            "id": "1",
+            "name": "All Users"
+        },
+        "disabled": "false",
+        "expired": "false",
+        "idx_user_id": "1000",
+        "idx_user_id_num": "1000",
+        "idx_name": "1000",
+        "idx_phone": "1000",
+        "idx_email": "1000",
+        "fingerprint_template_count": "0",
+        "face_count": "0",
+        "visual_face_count": "0",
+        "card_count": "0",
+        "qr_count": "0",
+        "mobile_count": "0",
+        "source_server": "Site A (Head Office)"
+    },
+    {
+        "user_id": "2",
+        "name": "Test Employee",
+        "gender": "0",
+        "photo_exists": "false",
+        "pin_exists": "false",
+        "login_id": "2",
+        "password_exists": "true",
+        "updated_count": "1",
+        "last_modified": "2",
+        "idx_last_modified": "10",
+        "start_datetime": "2001-01-01T00:00:00.00Z",
+        "expiry_datetime": "2037-12-31T23:59:00.00Z",
+        "security_level": "0",
+        "display_duration": "0",
+        "display_count": "0",
+        "permission": {
+            "id": "1",
+            "name": "Administrator",
+            "description": "this is a permission for Administrator",
+            "filter": {
+                "UserGroup": [
+                    "1"
+                ],
+                "DeviceGroup": [
+                    "1"
+                ],
+                "DoorGroup": [
+                    "1"
+                ],
+                "ElevatorGroup": [
+                    "1"
+                ],
+                "ZoneType": [
+                    "-1"
+                ],
+                "AccessGroup": [
+                    "0"
+                ],
+                "GraphicMapGroup": [
+                    "1"
+                ]
+            },
+            "module": {
+                "Dashboard": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "User": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Device": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Door": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Elevator": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Zone": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "AccessControl": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Monitoring": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "TA": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Setting": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Video": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Visitor": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Report": {
+                    "read": "true",
+                    "write": "true"
+                }
+            }
+        },
+        "inherited": "false",
+        "user_group_id": {
+            "id": "1",
+            "name": "All Users"
+        },
+        "disabled": "false",
+        "expired": "false",
+        "idx_user_id": "2000",
+        "idx_user_id_num": "2000",
+        "idx_name": "2000",
+        "idx_phone": "2000",
+        "idx_email": "2000",
+        "fingerprint_template_count": "0",
+        "face_count": "0",
+        "visual_face_count": "0",
+        "card_count": "0",
+        "qr_count": "0",
+        "mobile_count": "0",
+        "source_server": "Site A (Head Office)"
+    },
+    {
+        "user_id": "3",
+        "name": "u1",
+        "gender": "0",
+        "photo_exists": "false",
+        "pin_exists": "false",
+        "login_id": "3",
+        "password_exists": "true",
+        "updated_count": "0",
+        "last_modified": "3",
+        "idx_last_modified": "11",
+        "start_datetime": "2001-01-01T00:00:00.00Z",
+        "expiry_datetime": "2037-12-31T23:59:00.00Z",
+        "security_level": "0",
+        "display_duration": "0",
+        "display_count": "0",
+        "permission": {
+            "id": "255",
+            "name": "User",
+            "description": "this is a permission for Mobile User",
+            "filter": {
+                "UserGroup": [
+                    "1"
+                ],
+                "DeviceGroup": [
+                    "1"
+                ],
+                "DoorGroup": [
+                    "1"
+                ],
+                "ElevatorGroup": [
+                    "1"
+                ],
+                "ZoneType": [
+                    "-1"
+                ],
+                "AccessGroup": [
+                    "0"
+                ],
+                "GraphicMapGroup": [
+                    "1"
+                ]
+            },
+            "module": {
+                "Dashboard": {
+                    "read": "false",
+                    "write": "false"
+                },
+                "User": {
+                    "read": "false",
+                    "write": "false"
+                },
+                "Device": {
+                    "read": "false",
+                    "write": "false"
+                },
+                "Door": {
+                    "read": "false",
+                    "write": "false"
+                },
+                "Elevator": {
+                    "read": "false",
+                    "write": "false"
+                },
+                "Zone": {
+                    "read": "false",
+                    "write": "false"
+                },
+                "AccessControl": {
+                    "read": "false",
+                    "write": "false"
+                },
+                "Monitoring": {
+                    "read": "false",
+                    "write": "false"
+                },
+                "TA": {
+                    "read": "false",
+                    "write": "false"
+                },
+                "Setting": {
+                    "read": "false",
+                    "write": "false"
+                },
+                "Video": {
+                    "read": "false",
+                    "write": "false"
+                },
+                "Visitor": {
+                    "read": "false",
+                    "write": "false"
+                },
+                "Report": {
+                    "read": "false",
+                    "write": "false"
+                }
+            }
+        },
+        "inherited": "false",
+        "user_group_id": {
+            "id": "1",
+            "name": "All Users"
+        },
+        "disabled": "false",
+        "expired": "false",
+        "idx_user_id": "3000",
+        "idx_user_id_num": "3000",
+        "idx_name": "3000",
+        "idx_phone": "3000",
+        "idx_email": "3000",
+        "fingerprint_template_count": "0",
+        "face_count": "0",
+        "visual_face_count": "0",
+        "card_count": "0",
+        "qr_count": "0",
+        "mobile_count": "0",
+        "source_server": "Site A (Head Office)"
+    },
+    {
+        "user_id": "1",
+        "name": "Administrator",
+        "gender": "1",
+        "birthday": "1977-10-08T04:00:00.00Z",
+        "photo_exists": "false",
+        "pin_exists": "false",
+        "login_id": "admin",
+        "password_exists": "true",
+        "updated_count": "0",
+        "last_modified": "0",
+        "idx_last_modified": "9",
+        "start_datetime": "2001-01-01T00:00:00.00Z",
+        "expiry_datetime": "2037-12-31T23:59:00.00Z",
+        "security_level": "0",
+        "display_duration": "20",
+        "display_count": "3",
+        "permission": {
+            "id": "1",
+            "name": "Administrator",
+            "description": "this is a permission for Administrator",
+            "filter": {
+                "UserGroup": [
+                    "1"
+                ],
+                "DeviceGroup": [
+                    "1"
+                ],
+                "DoorGroup": [
+                    "1"
+                ],
+                "ElevatorGroup": [
+                    "1"
+                ],
+                "ZoneType": [
+                    "-1"
+                ],
+                "AccessGroup": [
+                    "0"
+                ],
+                "GraphicMapGroup": [
+                    "1"
+                ]
+            },
+            "module": {
+                "Dashboard": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "User": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Device": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Door": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Elevator": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Zone": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "AccessControl": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Monitoring": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "TA": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Setting": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Video": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Visitor": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Report": {
+                    "read": "true",
+                    "write": "true"
+                }
+            }
+        },
+        "inherited": "false",
+        "user_group_id": {
+            "id": "1",
+            "name": "All Users"
+        },
+        "disabled": "false",
+        "expired": "false",
+        "idx_user_id": "1000",
+        "idx_user_id_num": "1000",
+        "idx_name": "1000",
+        "idx_phone": "1000",
+        "idx_email": "1000",
+        "fingerprint_template_count": "0",
+        "face_count": "0",
+        "visual_face_count": "0",
+        "card_count": "0",
+        "qr_count": "0",
+        "mobile_count": "0",
+        "source_server": "Site B (Branch)"
+    },
+    {
+        "user_id": "2",
+        "name": "Test Employee",
+        "gender": "0",
+        "photo_exists": "false",
+        "pin_exists": "false",
+        "login_id": "2",
+        "password_exists": "true",
+        "updated_count": "1",
+        "last_modified": "2",
+        "idx_last_modified": "10",
+        "start_datetime": "2001-01-01T00:00:00.00Z",
+        "expiry_datetime": "2037-12-31T23:59:00.00Z",
+        "security_level": "0",
+        "display_duration": "0",
+        "display_count": "0",
+        "permission": {
+            "id": "1",
+            "name": "Administrator",
+            "description": "this is a permission for Administrator",
+            "filter": {
+                "UserGroup": [
+                    "1"
+                ],
+                "DeviceGroup": [
+                    "1"
+                ],
+                "DoorGroup": [
+                    "1"
+                ],
+                "ElevatorGroup": [
+                    "1"
+                ],
+                "ZoneType": [
+                    "-1"
+                ],
+                "AccessGroup": [
+                    "0"
+                ],
+                "GraphicMapGroup": [
+                    "1"
+                ]
+            },
+            "module": {
+                "Dashboard": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "User": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Device": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Door": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Elevator": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Zone": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "AccessControl": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Monitoring": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "TA": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Setting": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Video": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Visitor": {
+                    "read": "true",
+                    "write": "true"
+                },
+                "Report": {
+                    "read": "true",
+                    "write": "true"
+                }
+            }
+        },
+        "inherited": "false",
+        "user_group_id": {
+            "id": "1",
+            "name": "All Users"
+        },
+        "disabled": "false",
+        "expired": "false",
+        "idx_user_id": "2000",
+        "idx_user_id_num": "2000",
+        "idx_name": "2000",
+        "idx_phone": "2000",
+        "idx_email": "2000",
+        "fingerprint_template_count": "0",
+        "face_count": "0",
+        "visual_face_count": "0",
+        "card_count": "0",
+        "qr_count": "0",
+        "mobile_count": "0",
+        "source_server": "Site B (Branch)"
+    },
+    {
+        "user_id": "3",
+        "name": "u1",
+        "gender": "0",
+        "photo_exists": "false",
+        "pin_exists": "false",
+        "login_id": "3",
+        "password_exists": "true",
+        "updated_count": "0",
+        "last_modified": "3",
+        "idx_last_modified": "11",
+        "start_datetime": "2001-01-01T00:00:00.00Z",
+        "expiry_datetime": "2037-12-31T23:59:00.00Z",
+        "security_level": "0",
+        "display_duration": "0",
+        "display_count": "0",
+        "permission": {
+            "id": "255",
+            "name": "User",
+            "description": "this is a permission for Mobile User",
+            "filter": {
+                "UserGroup": [
+                    "1"
+                ],
+                "DeviceGroup": [
+                    "1"
+                ],
+                "DoorGroup": [
+                    "1"
+                ],
+                "ElevatorGroup": [
+                    "1"
+                ],
+                "ZoneType": [
+                    "-1"
+                ],
+                "AccessGroup": [
+                    "0"
+                ],
+                "GraphicMapGroup": [
+                    "1"
+                ]
+            },
+            "module": {
+                "Dashboard": {
+                    "read": "false",
+                    "write": "false"
+                },
+                "User": {
+                    "read": "false",
+                    "write": "false"
+                },
+                "Device": {
+                    "read": "false",
+                    "write": "false"
+                },
+                "Door": {
+                    "read": "false",
+                    "write": "false"
+                },
+                "Elevator": {
+                    "read": "false",
+                    "write": "false"
+                },
+                "Zone": {
+                    "read": "false",
+                    "write": "false"
+                },
+                "AccessControl": {
+                    "read": "false",
+                    "write": "false"
+                },
+                "Monitoring": {
+                    "read": "false",
+                    "write": "false"
+                },
+                "TA": {
+                    "read": "false",
+                    "write": "false"
+                },
+                "Setting": {
+                    "read": "false",
+                    "write": "false"
+                },
+                "Video": {
+                    "read": "false",
+                    "write": "false"
+                },
+                "Visitor": {
+                    "read": "false",
+                    "write": "false"
+                },
+                "Report": {
+                    "read": "false",
+                    "write": "false"
+                }
+            }
+        },
+        "inherited": "false",
+        "user_group_id": {
+            "id": "1",
+            "name": "All Users"
+        },
+        "disabled": "false",
+        "expired": "false",
+        "idx_user_id": "3000",
+        "idx_user_id_num": "3000",
+        "idx_name": "3000",
+        "idx_phone": "3000",
+        "idx_email": "3000",
+        "fingerprint_template_count": "0",
+        "face_count": "0",
+        "visual_face_count": "0",
+        "card_count": "0",
+        "qr_count": "0",
+        "mobile_count": "0",
+        "source_server": "Site B (Branch)"
+    }
+]
