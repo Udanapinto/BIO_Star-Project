@@ -1,4 +1,3 @@
-```markdown
 # Automated Multi-Site Biometric Data Synchronization System
 
 [cite_start]A Python-based API automation middleware solution designed to bridge decentralized data silos, eliminate manual administrative retrieval, and unify user access logs from distributed distributed Access Control Systems (Suprema BioStar 2)[cite: 24, 25, 26].
